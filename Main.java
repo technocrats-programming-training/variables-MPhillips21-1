@@ -12,12 +12,28 @@ public class Main {
         
 
         // Print out the following string: "Hello, I am <firstName> <lastName>, and I am <age> years old"
+      System.out.println("Hello, I am " + firstName + " " + lastName + ", and I am " + age + " years old");
 
         // Print out whether age is even
+      if(age % 2 == 0) {
+        System.out.println("Age is even");
+      } else {
+        System.out.println("Age is not even");
+      }
 
         // Print out whether firstName equals lastName
+      if(firstName.equals(lastName)) {
+        System.out.println("First and last names are the same");
+      } else {
+        System.out.println("First and last names are not the same");
+      }
 
         // Print out whether age is greater than 0
+      if(age > 0) {
+        System.out.println("Age is greater than 0");
+      } else {
+        System.out.println("Age is less than 0");
+      }
 
     }
 }
