@@ -15,25 +15,13 @@ public class Main {
       System.out.println("Hello, I am " + firstName + " " + lastName + ", and I am " + age + " years old");
 
         // Print out whether age is even
-      if(age % 2 == 0) {
-        System.out.println("Age is even");
-      } else {
-        System.out.println("Age is not even");
-      }
+      System.out.println(age % 2 == 0);
 
         // Print out whether firstName equals lastName
-      if(firstName.equals(lastName)) {
-        System.out.println("First and last names are the same");
-      } else {
-        System.out.println("First and last names are not the same");
-      }
-
+      System.out.println(firstName.equals(lastName));
+      
         // Print out whether age is greater than 0
-      if(age > 0) {
-        System.out.println("Age is greater than 0");
-      } else {
-        System.out.println("Age is less than 0");
-      }
+      System.out.println(age > 0);
 
     }
 }
